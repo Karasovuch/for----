@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/reviews.css" />
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header_logo_block">
+            <img src="img/logo_shkm.png" alt="Логотип">
+        </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="burger_menu">
+                <div class="header_burger_menu_line">
+                    <div class="header_burger_menu_line_top"></div>
+                </div>
+            </label>
+            <nav class="header_nav_block">
+                <a class="header_nav_text1 header_nav_main header_nav_main_a" href="index.html" data-translate-key="home">Головна</a>
+                <a class="header_nav_text2 header_nav_main" href="about_us.html" data-translate-key="about">Про школу</a>
+                <a class="header_nav_text3 header_nav_main" href="program.html" data-translate-key="curriculum">Навчальна програма</a>
+                <a class="header_nav_text4 header_nav_main" href="our_team.html" data-translate-key="ourTeam">Наш колектив</a>
+                <a class="header_nav_text5 header_nav_main" href="reviews.html" data-translate-key="reviews">Відгуки</a>
+            </nav>   
+        <div class="header_language_block">
+            <ul id="language">
+                <li class="language-box">
+                    <img src="img/flagUkraine.svg" alt="UA" width="26" class="language-image" />
+                    <div class="language-label">UA</div>
+                    <img src="img/rectangle.svg" alt="rectangle" class="language-indicator" />
+                </li>
+                <li class="language-option ua" data-language="UA, img/flagUkraine.svg">
+                    <img src="img/flagUkraine.svg" alt="UA" width="26" />
+                    <div class="label">UA</div>
+                </li>
+                <li class="language-option en" data-language="EN, img/flagUK.svg">
+                    <img src="img/flagUK.svg" alt="UK" width="26" />
+                    <div class="label">EN</div>
+                </li>
+            </ul>
+        </div>
+      </div>
+      <h1 class="h1">Відгуки про школу</h1>
+
+      <div class="biggest-slider">
+        <div class="age-buttons">
+          <button class="age">Відгуки від батьків</button>
+          <button class="age">Відгуки від випускників</button>
+          <button class="age">Відгуки від учнів</button>
+        </div>
+        <div class="slider swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="block-1 blocks swiper-slide">
+              <div class="imgAndTexts">
+                <img src="img/Ellipse 1.png" alt="" />
+                <div class="texts">
+                  <h1>Аліна Стельмах</h1>
+                  <h2>Мама учениці</h2>
+                </div>
+              </div>
+              <div class="stars">
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+              </div>
+              <p>
+                Вельми дякую ШКМ. Це чудове місце де дитина зможе навчитися командній роботі та базовим навичка веб розробки.
+              </p>
+            </div>
+            <div class="block-2 blocks swiper-slide">
+              <div class="imgAndTexts">
+                <img src="img/Ellipse2.png" alt=""/>
+                <div class="texts">
+                  <h1>Вася Гармата</h1>
+                  <h2>Учень ШКМ</h2>
+                </div>
+              </div>
+              <div class="stars">
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+              </div>
+              <p>
+                Боже ШКМ створили боги я вас прошу відводьте сюда своїх дітей ви
+                не пожалієте.
+              </p>
+            </div>
+            <div class="block-3 blocks swiper-slide">
+              <div class="imgAndTexts">
+                <img src="img/Ellipse3.png" alt="" />
+                <div class="texts">
+                  <h1>Галина Федорів</h1>
+                  <h2>Випускниця ШКМ</h2>
+                </div>
+              </div>
+              <div class="stars">
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+              </div>
+              <p>
+                Завдяки ШКМ я стала працювати на хорошу IT компанію тому всім
+                раджу почати навчатись в шкм
+              </p>
+            </div>
+            <div class="block-4 blocks swiper-slide">
+              <div class="imgAndTexts">
+                <img src="img/Ellipse4.png" alt="" />
+                <div class="texts">
+                  <h1>Сірьога Железяка</h1>
+                  <h2>Тато Учня</h2>
+                </div>
+              </div>
+              <div class="stars">
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+              </div>
+
+              <p>
+                Малий прийшов почав казати шо ця школа топ ну слава Богу що не
+                курить тому дякую ШКМу
+              </p>
+            </div>
+        
+          <!-- <div class="block-5 blocks swiper-slide">
+            <div class="imgAndTexts">
+              <img src="img/Ellipse2.png" alt="" />
+              <div class="texts">
+                <h1>Вася Гармата</h1>
+                <h2>Учень ШКМ</h2>
+              </div>
+            </div>
+            <div class="stars">
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+            </div>
+            <p>
+              Боже ШКМ створили боги я вас прошу відводьте сюда своїх дітей ви
+              не пожалієте.
+            </p>
+          </div> -->
+        </div> 
+       
+    </div>
+        <div class="reviews">
+          <div class="leftreviews">
+              <h1 class="h1-reviews">
+                Напишіть відгук та поділіться своєю думкою про ШКМ
+              </h1>
+            <div class="leftSideReviews">
+              <button class="button-reviews br1">Відгуки від батьків</button>
+              <button class="button-reviews br2">Відгуки від випускників</button>
+              <button class="button-reviews br3">Відгуки від учнів</button>
+            </div>
+          </div>  
+          <div class="rightSideReviews">
+            <input type="text" class="input-reviews" placeholder="Напишіть свій відгук..." />
+            <button class="rSb">Надіслати</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="to_our_adress_block">
+          <p>Наші адреса</p>
+          <div class="to_our_adress_mini_block">
+              <p>Ми в соц.мережах</p>
+              <img src="img/socials.png">
+          </div>
+      </div>
+      <div class="our_adress">
+          <div class="our_adress_block our_adress_block1">
+              <p>м. Івано-Франківськ, <br> вул. Північний бульвар 5б</p>
+              <div class="our_adress_mini_block">
+                  <div class="our_adress_mini_block_numbers">
+                      <img src="img/numbers.png">
+                      <p>(099) 23 11 519</p>
+                  </div>
+                  <div class="our_adress_mini_block_instagram">
+                      <img src="img/instagram.png">
+                      <p>@if_kompschool</p>
+                  </div>
+              </div>
+          </div>
+          <div class="our_adress_block our_adress_block2">
+              <p>м. Кривий Ріг, <br> вул. Співдружності 92а</p>
+              <div class="our_adress_mini_block">
+                  <div class="our_adress_mini_block_numbers">
+                      <img src="img/numbers.png">
+                      <p>(068) 20 60 734</p>
+                  </div>
+                  <div class="our_adress_mini_block_instagram">
+                      <img src="img/instagram.png">
+                      <p>@kompschool</p>
+                  </div>
+              </div>
+          </div>
+          <div class="our_adress_block our_adress_block3">
+              <p>м. Запоріжжя, <br> вул. Шкільна 56</p>
+              <div class="our_adress_mini_block">
+                  <div class="our_adress_mini_block_numbers">
+                      <img src="img/numbers.png">
+                      <p>(067) 54 45 402</p>
+                  </div>
+                  <div class="our_adress_mini_block_instagram">
+                      <img src="img/instagram.png">
+                      <p>@kompschool_zp</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        slidesPerGroup:1,
+        spaceBetween: 20,
+        breakpoints: {
+          720: {
+            slidesPerView: 2,
+          },
+          1060: {
+            slidesPerView: 3,
+                    spaceBetween: 50,
+          },
+        }
+      });
+    </script>
+  </body>
+</html>

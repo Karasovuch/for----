@@ -1,0 +1,205 @@
+.our_team_main_block{
+    width: 100%;
+    font-family: 'Montserrat';
+}
+.director_block{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2.472vw;
+}
+.director_text_block{
+    padding: 3vw 0vw 0vw 2.778vw;
+}
+.director_text_top{
+    text-align: center;
+    padding-bottom: 3.556vw;
+}
+.director_name{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.director_do{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 0.694vw;
+}
+.director_about{
+    padding-bottom: 1.389vw;
+}
+.team_block{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+.team_block_div{
+    display: block;
+}
+.team_block_div {
+    z-index: -1;
+    position: relative;
+    width: 24.306vw;
+    height: 34.722vw; 
+}
+.team_image_block{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.431vw;
+}
+.team_block_div img {
+    width: 100%;
+    display: block;
+}
+
+.about_teacher_block {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(219, 219, 219, 0.6); 
+    color: rgb(0, 0, 0); 
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+.team_text_block{
+    width: 100%;
+    padding-top: 4.861vw;
+    text-align: center;
+    font-size: 2.188rem;
+    font-weight: 500;
+}
+.team_text_block hr{
+    border: 1px solid black;
+}
+.teacher_name {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.about_teacher{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 0.8vw;
+}
+.team_block_div_span_on_tablet{
+    display: none;
+}
+@media (min-width: 481px) and (max-width: 1024px){
+    .director_block{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 2.472vw;
+    }
+    .director_photo_block img{
+        width: 44.005vw;
+        height: auto;
+    }
+    .director_text_block{
+        padding: 3vw 0vw 0vw 2.778vw;
+    }
+    .director_text_top{
+        text-align: center;
+        padding-bottom: 3.556vw;
+    }
+    .director_name{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .director_do{
+        font-size: 1rem;
+        font-weight: 500;
+        padding-top: 0.694vw;
+    }
+    .director_about{
+        padding-bottom: 1.389vw;
+    }
+    .team_block_div_span_to_tablet{
+        display: none;
+    }
+    .team_block_div_span_on_tablet{
+        display: block;
+    }
+    .team_image_block{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 2.431vw;
+    }
+    .about_teacher_block {
+        width: 100%;
+        height: 15vw;    
+    }
+    .team_text_block{
+        font-size: 2.188rem;
+    }
+    .team_block_div {
+        width: 35.971vw;
+        height: 51.594vw; 
+    }
+    .teacher_name {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .about_teacher{
+        font-size: 1rem;
+        font-weight: 500;
+        padding-top: 0.8vw;
+        overflow: hidden;
+    }
+}
+@media (max-width: 480px){
+    .director_block{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 2.472vw;
+    }
+    .director_text_block{
+        padding: 5vw 0vw 0vw 2.778vw;
+    }
+    .director_photo_block img{
+        width: 100%;
+        height: auto;
+    }
+    .director_text_top{
+        text-align: center;
+        padding-bottom: 7vw;
+    }
+    .director_name{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    .director_do{
+        font-size: 0.9rem;
+        font-weight: 500;
+        padding-top: 0.994vw;
+    }
+    .director_about{
+        padding-bottom: 4vw;
+    }
+    .team_image_block {
+        display: block;
+    }
+    .team_block_div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5.089vw;
+        position: relative;
+    }
+    .team_block_div img {
+        width: 100%;
+        height: auto;
+    }
+    .about_teacher_block {
+        height: auto;
+        position: absolute; 
+    }
+    .team_text_block {
+        font-size: 1.5rem;
+    }
+    .about_teacher {
+        padding-top: 2vw;
+    }
+}

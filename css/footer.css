@@ -1,0 +1,136 @@
+.footer{
+    width: 100%;
+    display: flex;
+    height: 10.764vw;
+    background-color: white;
+    box-shadow: 0px -2px 10px rgba(43, 43, 43, 0.5);
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat";
+}
+.to_our_adress_block{
+    width: 15%;
+}
+.to_our_adress_mini_block{
+    font-weight: 600;
+}
+.to_our_adress_mini_block{
+    display: flex;
+}
+.to_our_adress_mini_block img{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.our_adress{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.our_adress_block p{
+    font-weight: 600;
+}
+.our_adress_mini_block{
+    padding-top: 0.347vw;
+}
+.our_adress_mini_block_numbers{
+    display: flex;
+    padding-top: 0.7vw;
+}
+.our_adress_mini_block_numbers img{
+    width: 1.2  vw;
+    height: 1.2vw;
+    padding-right: 1vw;
+}
+.our_adress_mini_block_instagram{
+    display: flex;
+    padding-top: 0.7vw;
+}
+.our_adress_mini_block_instagram img{
+    width: 1.3vw;
+    height: 1.3vw;
+}
+.our_adress_mini_block p{
+    font-weight: 500;
+    text-decoration: underline;
+}
+@media (min-width: 481px) and (max-width: 1024px){
+    .footer{
+        display: block;
+        align-items: normal;
+        justify-content: normal;
+        height: auto;
+    }
+    .to_our_adress_block{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .to_our_adress_mini_block{
+        display: block;
+    }
+    .to_our_adress_mini_block p{
+        padding: 1vw 0vw 2vw 0vw;
+    }
+    .our_adress{
+        width: 100%;
+        padding: 2vw 0vw 2vw 0vw;
+    }
+    .our_adress_block{
+        font-size: 0.875rem;
+        font-weight: 400;
+    }
+    .to_our_adress_mini_block img{
+        width: 4vw;
+        height: 4vw;
+        padding-left: 1vw;
+    }
+    .our_adress_mini_block_numbers img{
+        width: 2vw;
+        height: 2vw;
+    }
+    .our_adress_mini_block_instagram img{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+}
+@media (max-width: 480px){
+    .footer{
+        display: block;
+        align-items: normal;
+        justify-content: normal;
+        height: auto;
+    }
+    .our_adress{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .our_adress_block{
+        padding-top: 6vw;
+    }
+    .to_our_adress_mini_block{
+        display: block;
+    }   
+    .to_our_adress_block{
+        width: 100%;
+        text-align: center;
+    }
+    .our_adress_mini_block div{
+        display: flex;
+        justify-content: center;
+        padding-top: 2vw;
+    }
+    .to_our_adress_mini_block img{
+        width: 8vw;
+        height: 8vw;
+        padding-top: 3vw;
+    }
+    .our_adress_mini_block_numbers img{
+        width: 5vw;
+        height: 5vw;
+    }
+    .our_adress_mini_block_instagram img{
+        width: 6.5vw;
+        height: 6.5vw;
+    }
+}

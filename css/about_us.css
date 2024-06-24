@@ -1,0 +1,186 @@
+.about_us{
+    width: 95%;
+    margin: 0 auto;
+    font-family: "Montserrat";
+}
+.text_and_statistics{
+    padding-top: 3vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 50%;
+    font-size: 2rem;
+}
+.statistics{
+    width: 40%;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    
+}
+.statistics div{
+    padding: 3vw 0vw 0vw 2vw;
+}
+.statistics p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.statistics span{
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-right: 1vw;
+}
+.why_we{
+    width: 90%;
+    padding: 7vw 0vw 7vw 0vw;
+    margin: 0 auto;
+}
+.why_we_title{
+    text-align: center;
+    font-size: 1.875rem;
+}
+.reasons{
+    display: block;
+}
+.reasons_top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 3vw 0vw 5vw 5vw;
+}
+.reasons_top div{
+    display: flex;
+    width: 35%;
+    align-items: center;
+}
+.reasons_bottom div{
+    display: flex;
+    width: 35%;
+    align-items: center;
+}
+.reasons_bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 3vw 0vw 5vw 5vw;
+}
+.reasons_span{
+    font-size: 2.813rem;
+    font-style: bold;
+    padding-right: 2.083vw;
+}
+.to_trial_lesson{
+    width: 100%;
+    text-align: center;
+}
+.to_trial_lesson button{
+    background: none;
+    padding: 0.9vw 3.819vw 0.9vw 3.819vw;
+    border-radius: 5px;
+    border: 2px solid #7091E6;
+}
+.galerry_block img{
+    width: 100%;
+}
+.student_work{
+    padding: 7vw 0vw 6vw 0vw;
+}
+.student_work_title{
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 500;
+}
+.student_work_block{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4vw;
+}
+.student_work_div {
+    width: 48%; 
+}
+.student_work_class{
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0, 0.5);
+}
+.student_work_img_name{
+    padding-top: 0.3vw;
+    background: rgba(239, 235, 235, 0.2);
+    
+}
+.student_work_img_name img{
+    width: 100%;
+}
+.student_work_img_name p{
+    font-size: 1.25;
+    font-weight: 500;
+    padding-bottom: 1vw;
+}
+.to_more_button_work_block{
+    text-align: center;
+    margin-top: 3vw;
+    font-size: 1.125rem;
+}
+.to_more_button_work_block button{
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(to right, #FCFF7F, #FFC062);
+    padding: 0.9vw 5.5vw 0.9vw 5.5vw;
+}
+@media (min-width: 481px) and (max-width: 1024px){
+
+}
+@media (max-width: 480px){
+    .about_us{
+        width: 100%;
+    }
+    .text_and_statistics{
+        width: 100%;
+        display: block;
+    }
+    .text{
+        width: 94%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 500;
+        padding: 1vw 0vw 4vw 0vw;
+    }
+    .statistics{
+        width: 100%;
+        border-radius: 0px;
+        box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+    .statistics div{
+        padding: 6vw 3vw 6vw 3vw;
+    }
+    .why_we_title{
+        font-weight: 500;
+    }
+    .reasons_top, .reasons_bottom{
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .reasons_top div, .reasons_bottom div{
+        width: 100%;
+        padding-top: 3vw;
+        font-weight: 600;
+    }
+    .reasons span{
+        width: 20vw;
+        font-weight: 600;
+    }
+    .to_trial_lesson{
+        padding-top: 7vw;
+        width: 100%;
+    }
+    .to_trial_lesson button{
+        padding: 3.5vw 12vw ;
+    }
+}
